@@ -1,0 +1,36 @@
+{
+    "color":{
+        "primary":{
+            "light":{
+                "value":"#3498db"
+            },
+            "dark":{
+                "value":"#2980b9"
+            }
+        },
+        "secondary":{
+            "light":{
+                "value":"#2ecc71"
+            },
+            "dark":{
+                "value":"#27ae60"
+            }
+        },
+        "text":{
+            "light":{
+                "value":"#333333"
+            },
+            "dark":{
+                "value":"#ecf0f1"
+            }
+        },
+        "background":{
+            "light":{
+                "value":"#ffffff"
+            },
+            "dark":{
+                "value":"#2c3e50"
+            }
+        }
+    }
+}
