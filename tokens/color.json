@@ -1,36 +1,60 @@
 {
-    "color":{
-        "primary":{
-            "light":{
-                "value":"#3498db"
-            },
-            "dark":{
-                "value":"#2980b9"
-            }
-        },
-        "secondary":{
-            "light":{
-                "value":"#2ecc71"
-            },
-            "dark":{
-                "value":"#27ae60"
-            }
-        },
-        "text":{
-            "light":{
-                "value":"#333333"
-            },
-            "dark":{
-                "value":"#ecf0f1"
-            }
-        },
-        "background":{
-            "light":{
-                "value":"#ffffff"
-            },
-            "dark":{
-                "value":"#2c3e50"
-            }
-        }
+  "color": {
+    "primary": {
+      "light": { "value": "#3498db" },
+      "dark": { "value": "#2980b9" }
+    },
+    "secondary": {
+      "light": { "value": "#2ecc71" },
+      "dark": { "value": "#27ae60" }
+    },
+    "text": {
+      "primary": {
+        "light": { "value": "#212121" },
+        "dark": { "value": "#ffffff" }
+      },
+      "secondary": {
+        "light": { "value": "#757575" },
+        "dark": { "value": "#b0bec5" }
+      },
+      "disabled": {
+        "light": { "value": "#bdbdbd" },
+        "dark": { "value": "#546e7a" }
+      }
+    },
+    "background": {
+      "primary": {
+        "light": { "value": "#ffffff" },
+        "dark": { "value": "#1a252f" }
+      },
+      "secondary": {
+        "light": { "value": "#f5f5f5" },
+        "dark": { "value": "#2c3e50" }
+      }
+    },
+    "surface": {
+      "light": { "value": "#ffffff" },
+      "dark": { "value": "#263238" }
+    },
+    "border": {
+      "light": { "value": "#e0e0e0" },
+      "dark": { "value": "#455a64" }
+    },
+    "success": {
+      "light": { "value": "#27ae60" },
+      "dark": { "value": "#2ecc71" }
+    },
+    "warning": {
+      "light": { "value": "#f39c12" },
+      "dark": { "value": "#f1c40f" }
+    },
+    "error": {
+      "light": { "value": "#e74c3c" },
+      "dark": { "value": "#c0392b" }
+    },
+    "info": {
+      "light": { "value": "#3498db" },
+      "dark": { "value": "#5dade2" }
     }
+  }
 }

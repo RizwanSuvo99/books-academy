@@ -4,24 +4,76 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  /* Colors */
   --color-primary: var(--color-primary-light);
   --color-primary-dark: var(--color-primary-dark);
   --color-secondary: var(--color-secondary-light);
   --color-secondary-dark: var(--color-secondary-dark);
-  --color-text: var(--color-text-light);
-  --color-text-dark: var(--color-text-dark);
-  --color-background: var(--color-background-light);
-  --color-background-dark: var(--color-background-dark);
+  --color-text-primary: var(--color-text-primary-light);
+  --color-text-secondary: var(--color-text-secondary-light);
+  --color-text-disabled: var(--color-text-disabled-light);
+  --color-background-primary: var(--color-background-primary-light);
+  --color-background-secondary: var(--color-background-secondary-light);
+  --color-surface: var(--color-surface-light);
+  --color-border: var(--color-border-light);
+  --color-success: var(--color-success-light);
+  --color-warning: var(--color-warning-light);
+  --color-error: var(--color-error-light);
+  --color-info: var(--color-info-light);
+  
+  /* Spacing */
+  --spacing-none: var(--size-spacing-none);
+  --spacing-xs: var(--size-spacing-xs);
+  --spacing-sm: var(--size-spacing-sm);
+  --spacing-md: var(--size-spacing-md);
+  --spacing-lg: var(--size-spacing-lg);
+  --spacing-xl: var(--size-spacing-xl);
+  --spacing-xxl: var(--size-spacing-xxl);
+  --spacing-xxxl: var(--size-spacing-xxxl);
+  
+  /* Typography */
+  --font-family-primary: var(--typography-font-family-primary);
+  --font-family-secondary: var(--typography-font-family-secondary);
+  --font-family-mono: var(--typography-font-family-mono);
+  --font-size-xs: var(--typography-font-size-xs);
+  --font-size-sm: var(--typography-font-size-sm);
+  --font-size-md: var(--typography-font-size-md);
+  --font-size-lg: var(--typography-font-size-lg);
+  --font-size-xl: var(--typography-font-size-xl);
+  --font-size-xxl: var(--typography-font-size-xxl);
+  --font-size-xxxl: var(--typography-font-size-xxxl);
+  --font-size-display: var(--typography-font-size-display);
+  --font-weight-light: var(--typography-font-weight-light);
+  --font-weight-regular: var(--typography-font-weight-regular);
+  --font-weight-medium: var(--typography-font-weight-medium);
+  --font-weight-semibold: var(--typography-font-weight-semibold);
+  --font-weight-bold: var(--typography-font-weight-bold);
+  --line-height-tight: var(--typography-line-height-tight);
+  --line-height-normal: var(--typography-line-height-normal);
+  --line-height-relaxed: var(--typography-line-height-relaxed);
+  --line-height-loose: var(--typography-line-height-loose);
+  --letter-spacing-tight: var(--typography-letter-spacing-tight);
+  --letter-spacing-normal: var(--typography-letter-spacing-normal);
+  --letter-spacing-wide: var(--typography-letter-spacing-wide);
+  --letter-spacing-wider: var(--typography-letter-spacing-wider);
+  
+  /* Border Radius */
+  --radius-none: var(--size-border-radius-none);
+  --radius-sm: var(--size-border-radius-sm);
+  --radius-md: var(--size-border-radius-md);
+  --radius-lg: var(--size-border-radius-lg);
+  --radius-xl: var(--size-border-radius-xl);
+  --radius-full: var(--size-border-radius-full);
 }
 
 :root {
-  --background-color: var(--color-background-light);
-  --text-color: var(--color-text-light);
+  --background-color: var(--color-background-primary-light);
+  --text-color: var(--color-text-primary-light);
 }
 
 .dark {
-  --background-color: var(--color-background-dark);
-  --text-color: var(--color-text-dark);
+  --background-color: var(--color-background-primary-dark);
+  --text-color: var(--color-text-primary-dark);
 }
 
 body {

@@ -1,0 +1,67 @@
+{
+  "size": {
+    "spacing": {
+      "none": { "value": "0" },
+      "xs": { "value": "4px" },
+      "sm": { "value": "8px" },
+      "md": { "value": "16px" },
+      "lg": { "value": "24px" },
+      "xl": { "value": "32px" },
+      "xxl": { "value": "48px" },
+      "xxxl": { "value": "64px" }
+    },
+    "fontSize": {
+      "xs": { "value": "12px" },
+      "sm": { "value": "14px" },
+      "md": { "value": "16px" },
+      "lg": { "value": "18px" },
+      "xl": { "value": "20px" },
+      "xxl": { "value": "24px" },
+      "xxxl": { "value": "32px" },
+      "display": { "value": "48px" }
+    },
+    "lineHeight": {
+      "tight": { "value": "1.25" },
+      "normal": { "value": "1.5" },
+      "relaxed": { "value": "1.75" },
+      "loose": { "value": "2" }
+    },
+    "borderRadius": {
+      "none": { "value": "0" },
+      "sm": { "value": "4px" },
+      "md": { "value": "8px" },
+      "lg": { "value": "12px" },
+      "xl": { "value": "16px" },
+      "full": { "value": "9999px" }
+    },
+    "borderWidth": {
+      "none": { "value": "0" },
+      "thin": { "value": "1px" },
+      "medium": { "value": "2px" },
+      "thick": { "value": "4px" }
+    },
+    "iconSize": {
+      "xs": { "value": "12px" },
+      "sm": { "value": "16px" },
+      "md": { "value": "24px" },
+      "lg": { "value": "32px" },
+      "xl": { "value": "48px" }
+    },
+    "width": {
+      "xs": { "value": "320px" },
+      "sm": { "value": "640px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "1024px" },
+      "xl": { "value": "1280px" },
+      "full": { "value": "100%" }
+    },
+    "height": {
+      "xs": { "value": "320px" },
+      "sm": { "value": "480px" },
+      "md": { "value": "640px" },
+      "lg": { "value": "800px" },
+      "xl": { "value": "1024px" },
+      "full": { "value": "100%" }
+    }
+  }
+}
